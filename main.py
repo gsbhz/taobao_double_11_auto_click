@@ -1,10 +1,7 @@
 #! python3
 #! -*- coding:utf-8 -*-
 
-import os, sys, subprocess, threading, time, random
-import colorsys
-from PIL import Image
-import subprocess
+import os, sys, threading, time, random
 
 
 def ProgressBar(cur_page, total_page, total_time):
